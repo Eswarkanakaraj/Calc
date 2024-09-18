@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#calc {
+    width: 100%;
+    height: auto;  
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(10px 10px 10px rgb(104, 100, 100));
+    
+}
+#content {
+    background: #242824;
+    padding: 7px;
+    border-radius: 12px;
+}
+#content form input {
+    border: 2px outset rgb(30, 30, 30) ;
+    outline: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#content form input:hover{
+    box-shadow:  3px 3px #b9cbda;
+transform: translateX(-3px);
+}
+#backspace {
+    background-color: rgb(237, 89, 30);
+    color: white;
+}
+
+#clear {
+    background-color: rgb(237, 89, 30);
+    color: white;
+}
+form #output {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+form #output input {
+    display: flex;
+    justify-content: left;
+    text-align:end;
+    flex: 1;
+    font-size: 20px;
+    padding: 3px;
+}
+#casio{
+    
+    color: whitesmoke;
+    padding: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-shadow: 2px 1px 3px black;
+}
+#founder
+{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal; 
+    margin-left: 350px;
+   
+}
+#founder span{
+    
+    font-family: "Zeyada", cursive;
+    font-weight:500;
+        color:rgb(255, 0, 0);
+        letter-spacing: 1px;
+        font-size: x-large;
+        font-weight: 55%;
+        /* display: block;
+        margin-left: 10%; */
+        filter: drop-shadow(2px 1px 1px  black);
+       
+        
+}
+
+    
+       
+    
+@media only screen and (max-width:458px) {
+    #founder{
+        font-family: "Baskervville SC", serif;
+        font-weight: 400;
+        font-style: normal; 
+        text-align: center;
+        margin-left: 150px;
+        
+    }
+}
+    @media only screen and (min-width:1024px){
+      #founder{
+       
+        text-align: center;
+        margin-left: 150px;
+      }
+    }
+
+
+
+
+
+ 
